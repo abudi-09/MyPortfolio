@@ -8,7 +8,7 @@ window.addEventListener("scroll", function () {
 function toggleMenu() {
   if (window.innerWidth <= 800) {
     let menu = document.querySelector(".menu");
-    menu.classList.toggle("active");
+    menu.classList.toggle("active");   
 
     let toggle = document.querySelector(".toggle");
     toggle.classList.toggle("active");
