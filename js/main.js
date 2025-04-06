@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
 
 // Toggle Nav
 function toggleMenu() {
-  if (window.innerWidth <= 800) {
+   if (window.innerWidth <= 800) {
     let menu = document.querySelector(".menu");
     menu.classList.toggle("active");   
 
